@@ -1,7 +1,12 @@
 // Reescreva a próxima expressão usando
 // um if / else.
 // switch (day) {
-// 	case 0: 
+// 	case 0:
+if(rand=0) {
+    console.log("Segunda")
+}else{
+    throw 
+}
 // 		console.log("Segunda")
 // 	case 1:
 // 		console.log("Terça")
