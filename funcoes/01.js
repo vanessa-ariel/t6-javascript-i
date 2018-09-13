@@ -30,6 +30,7 @@ function show(x) {
 //EXERCISE 3
 
 function eq3(a, b, c) {
+	console.log(a, b, c)
 	if (a === b && a === c) {
 		return 1
 	} else {

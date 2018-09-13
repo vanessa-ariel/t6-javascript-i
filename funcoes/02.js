@@ -6,6 +6,9 @@
 // <objeto>. <nome> decidiu levar
 // <objeto> pra casa."
 
+function sentenceGen(nome,pronome,objeto){
+    return `${nome} foi caminhar no parque. ${pronome} encontrou ${objeto}. ${nome} decidiu levar ${objeto} pra casa.`
+}
 
 
 
@@ -13,7 +16,9 @@
 // em Javascript que recebe
 // um número qualquer e retorna
 // a raiz quadrada dele.
-
+function squareRootOf(x){
+    return  Math.sqrt(x) 
+}
 
 
 
@@ -21,9 +26,9 @@
 // Javascript que recebe um
 // número qualquer e retorna
 // a representação binaria dele.
-
-
-
+function binary(x){
+    return x.toString(2); 
+}
 
 // Escreva uma função em Javascript
 // que recebe uma lista de números
@@ -32,9 +37,14 @@
 
 
 
+
 // Escreva uma função em Javascript
 // que vai checar se duas ou mais strings
 // sao anagramas umas das outras.
+function checkAnagram(){
+
+}
+
 
 
 
@@ -43,3 +53,4 @@
 // que recebe o raio de um circulo
 // e calcula o diametro, a circunferencia
 // e a area dele.
+function 

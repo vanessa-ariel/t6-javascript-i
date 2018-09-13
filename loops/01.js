@@ -96,7 +96,6 @@ for (let i = 1; i <= fatorial; i++) {
 	aux *= i
 }
 
-
 // Escreva um loop em Javascript que 
 // calcula quantos termos a soma
 // 1 + 2 + 3 + ... precisa para

@@ -25,9 +25,12 @@ if (score >=80 && score <=90){
 // Reescreva a seguinte condicional
 // sem usar o operador `!`:
 // item = ! ( i < 10 || v >= 50 )
-
-
-
+item = ( i < 10 || v >= 50 ) === false
+// ou...
+item = ( i >= 10 && v < 50 )
+// refs: 
+// - http://www.math.toronto.edu/preparing-for-calculus/3_logic/we_3_negation.html
+// - https://centraldefavoritos.com.br/2017/01/02/negacao-de-proposicoes/ (ver: "Negação de uma Proposição Disjuntiva")
 
 // Escreva a expressão em
 // Javascript que retorna `true`
